@@ -1,5 +1,7 @@
 package com.mycompany.programaholamundo;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author hento
@@ -7,6 +9,6 @@ package com.mycompany.programaholamundo;
 public class HolaMundo {
     public static void main(String[] args) {
         // TODO code application logic here
-        JOp
+        JOptionPane.showMessageDialog(null, "Hola Mundo");
     }   
 }
